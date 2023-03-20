@@ -1,5 +1,5 @@
 # RentalScraper
-A webscraper to scrape links from kijiji using selenium and enter them into a mysql database
+A webscraper to scrape links from kijiji using selenium, iteratively pass through the links to collect rental unit data, then enter them into a mysql database.
 
 # How does it work? 
 1. The scraper opens a Chrome browser in selenium and travels to the paginated list of units. It travels through the first 20 pages on the site and collects links, places them into a list. 
